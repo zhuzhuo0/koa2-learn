@@ -47,6 +47,7 @@ function prasePostStr(queryStr) {
         let itemList = str.split('=');
         postData[itemList[0]] = decodeURIComponent(itemList[1]);
     }
+    
     console.log(postData);
     return postData;
 }
